@@ -1118,7 +1118,8 @@ var BurgerIcon = function (_Component) {
                         onMouseOut: function () {
                             return _this.setState({ hover: false });
                         },
-                        style: buttonStyle
+                        style: buttonStyle,
+                      "aria-label": "פתח תפריט"
                     }, 'Open Menu'));
                 }
             }
